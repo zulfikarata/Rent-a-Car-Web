@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Araç Kiralama Sistemi", "Araç Kiralama Sistemi\Araç Kiralama Sistemi.csproj", "{CC0FC129-275C-4D6E-9B68-CE480D017F52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sınıflarım", "sınıflarım\sınıflarım.csproj", "{4A8CB23C-326A-4F77-87DF-9A51AEAE88B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AracKiralamaWebApi", "AracKiralamaWebApi\AracKiralamaWebApi.csproj", "{D0A1B4E9-05F1-4C14-8DDA-18E6FFFFFB66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CC0FC129-275C-4D6E-9B68-CE480D017F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0FC129-275C-4D6E-9B68-CE480D017F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0FC129-275C-4D6E-9B68-CE480D017F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8CB23C-326A-4F77-87DF-9A51AEAE88B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8CB23C-326A-4F77-87DF-9A51AEAE88B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8CB23C-326A-4F77-87DF-9A51AEAE88B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8CB23C-326A-4F77-87DF-9A51AEAE88B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A1B4E9-05F1-4C14-8DDA-18E6FFFFFB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A1B4E9-05F1-4C14-8DDA-18E6FFFFFB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A1B4E9-05F1-4C14-8DDA-18E6FFFFFB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A1B4E9-05F1-4C14-8DDA-18E6FFFFFB66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

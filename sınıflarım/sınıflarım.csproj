@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CC0FC129-275C-4D6E-9B68-CE480D017F52}</ProjectGuid>
+    <ProjectGuid>{4A8CB23C-326A-4F77-87DF-9A51AEAE88B1}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Araç_Kiralama_Sistemi</RootNamespace>
-    <AssemblyName>Araç Kiralama Sistemi</AssemblyName>
+    <RootNamespace>sınıflarım</RootNamespace>
+    <AssemblyName>sınıflarım</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,24 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app_data\AraçKiralamaDB.mdb" />
-    <Content Include="kayitekleme.aspx" />
-    <Content Include="kayıtol.aspx" />
-    <Content Include="OturumAcma.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DataSet2.xsc">
-      <DependentUpon>DataSet2.xsd</DependentUpon>
-    </Content>
-    <None Include="DataSet2.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
-    </None>
-    <Content Include="DataSet2.xss">
-      <DependentUpon>DataSet2.xsd</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -121,74 +106,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="SifreUnuttum.aspx" />
-    <Content Include="Update.aspx" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
+    <Compile Include="Arac.cs" />
+    <Compile Include="AracKirala.cs" />
+    <Compile Include="AracRezerve.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="kayitekleme.aspx.cs">
-      <DependentUpon>kayitekleme.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="kayitekleme.aspx.designer.cs">
-      <DependentUpon>kayitekleme.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="kayıtol.aspx.cs">
-      <DependentUpon>kayıtol.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="kayıtol.aspx.designer.cs">
-      <DependentUpon>kayıtol.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="OturumAcma.aspx.cs">
-      <DependentUpon>OturumAcma.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="OturumAcma.aspx.designer.cs">
-      <DependentUpon>OturumAcma.aspx</DependentUpon>
-    </Compile>
+    <Compile Include="Musteri.cs" />
+    <Compile Include="MusteriEhliyetBilgi.cs" />
+    <Compile Include="MusteriNufusBilgi.cs" />
+    <Compile Include="MusteriPasaportBilgi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SifreUnuttum.aspx.cs">
-      <DependentUpon>SifreUnuttum.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SifreUnuttum.aspx.designer.cs">
-      <DependentUpon>SifreUnuttum.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Update.aspx.cs">
-      <DependentUpon>Update.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Update.aspx.designer.cs">
-      <DependentUpon>Update.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="images\" />
-    <Folder Include="js\" />
+    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
@@ -204,9 +141,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53623</DevelopmentServerPort>
+          <DevelopmentServerPort>59044</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53623/</IISUrl>
+          <IISUrl>http://localhost:59044/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
